@@ -5,6 +5,7 @@ package me.declangao.wordpressreader.util;
  */
 public class Config {
     // Fill in your own WordPress URL, don't forget the "/" at the end
+    // Only websites from Wordpress.org. Free Wordpress.com domains will not work.
     public static final String BASE_URL = "http://URL_TO_YOUR_WORDPRESS_SITE/";
 
     public static String CATEGORY_URL = BASE_URL + "?json=get_category_index";
